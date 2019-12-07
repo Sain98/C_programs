@@ -1,0 +1,25 @@
+Library management system in C
+
+Options:
+	Issue a book
+	Submit a book
+	Add info for a new book
+	Search a book
+	Show issued books for (person)
+
+
+Book :
+	Name, release date, category, author, ID
+
+Saving system:
+
+	split the 4 different parts, 1 line each
+
+	books.txt:
+		Book name
+		Author name
+		Category
+		Release date
+
+	should be easy to calculate ID based on
+	multiply or divide the line number by 4
